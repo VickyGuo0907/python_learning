@@ -1,0 +1,40 @@
+site_name: Python Learning Site
+site_description: Learning Materials
+site_author: 'Danny Guo'
+
+theme:
+  name: 'material'
+
+
+copyright: 'Copyright &copy; 2021 Danny Guo'
+
+repo_name: 'GitHub'
+docs_dir: docs/
+repo_url: https://github.com/VickyGuo0907/python-learning
+edit_uri: edit/master/docs/
+
+# Plugins
+plugins:
+  - search
+# Launch external urls in separate tab
+extra_javascript:
+  - js/links_in_new_tabs.js
+  
+markdown_extensions:
+  - admonition
+  - codehilite
+  - smarty
+  - meta
+  - toc:
+      permalink: True
+  - attr_list
+
+#Page tree
+nav:
+  - Home: index.md
+  - Base Knowledge:
+    - Algorithm: base_knowlege/python_algorithm.md
+    - Panda: base_knowlege/panda.md
+  - Interviews Preparation:
+      - Python Interview Question: interviews/python_interview.md
+
