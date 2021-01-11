@@ -27,4 +27,4 @@ jobs:
 
       - name: Deploy
         run: 
-          mkdocs gh-deploy --config-file ../python-learning/mkdocs.yml --force --remote-branch gh-pages
+          mkdocs gh-deploy --config-file ../python_learning/mkdocs.yml --force --remote-branch gh-pages
