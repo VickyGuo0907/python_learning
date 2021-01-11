@@ -1,7 +1,7 @@
 # python_learning
 Beginning of Python Journey
 
-![github pages](https://github.com/VickyGuo0907/python_learning/workflows/github%20pages/badge.svg?branch=master)
+![github pages](https://github.com/VickyGuo0907/python_learning/workflows/github%20pages/badge.svg?branch=main)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VickyGuo0907/python_learning)
 
 ## Overview
